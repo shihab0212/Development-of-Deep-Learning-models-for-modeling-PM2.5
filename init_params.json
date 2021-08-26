@@ -1,0 +1,26 @@
+{
+    "_comment1": "Change these according to the station",  
+    "csv_path": "Data/Dhaka_Final_v4.csv",
+    "dataset": "Dhaka",
+
+    "_comment2": "model_name could be lstm_ae/bi_lstm_ae/rnn_ae. For prophet and DeepAR not need to change this name.",  
+    "model_name": "lstm_ae",
+
+    "_comment3": "Make max_number_of_trials 1 tp just check if everything is alright or else 50",
+    "max_number_of_trials": 50,
+
+
+    "_comment4": "From _comment4 and _comment5 Should be same for all models and data", 
+    "model_save_folder_name": "final_models", 
+    "window_size": 98,
+    "stride_size": 1,
+    "num_covariates": 16,
+    "pred_days": 7,
+
+    "_comment5": "Below are parameters for prophet models. Leave as it is",
+    "changepoint_prior_scale": 0.04,
+    "seasonality_prior_scale": 2.82,
+    "holidays_prior_scale": 1.92,
+    "seasonality_mode": "multiplicative"
+
+}

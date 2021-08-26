@@ -1,0 +1,14 @@
+name: air_quality_environment
+
+channels:
+  - conda-forge
+  - msys2
+dependencies:
+  - python=3.7.9
+  - anaconda
+  - pip
+  - libpython 
+  - m2w64-toolchain
+  - fbprophet
+  - pip:
+    - -r file:requirements_gpu.txt

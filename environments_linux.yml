@@ -1,0 +1,14 @@
+name: air_quality_environment
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.7.9
+  - anaconda
+  - pip
+  - gcc_linux-64 
+  - gxx_linux-64
+  - fbprophet
+  - pip:
+    - -r file:requirements.txt

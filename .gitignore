@@ -1,0 +1,19 @@
+
+*.log
+*.tar
+*.csv
+*.pt
+*.png
+
+Data/
+Dhaka/
+HPO/
+visualizations/
+.ipynb_checkpoints/
+__pycache__/
+
+# ignore sub dirs in the /DeepAR directory
+#DeepAR*/*
+DeepAR/data/
+DeepAR/experiments/base_model/*
+!DeepAR/experiments/base_model/params.json

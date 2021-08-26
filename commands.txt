@@ -1,0 +1,2 @@
+conda env update -f environments_linux.yml 
+conda activate air_quality_environment
